@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh_CN" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<br>
+<!--
+    <h1 style="background-color: lightskyblue;color: goldenrod">Hello, World!</h1>
+    <script src="/static/js/jquery.js"></script>
+ -->
+    <h1>用户输入：</h1>
+    <form action="/index/" method="post">
+        {% csrf_token %} <!-- django的跨站保护机制，加入该行可实现内容提交 -->
+        用户名：<input type="text" name="username" /><br  />
+        密码： <input type="password" name="password" /><br />
+        <input type="submit" value="提交" />
+    </form>
+    <h1>用户展示：</h1>
+        <table border="1">
+            <thead>
+                <tr>用户名</tr>
+                <tr>密码</tr>
+            </thead>
+            <tbody>
+                {% for item in data %}
+                <tr>
+                    <td>{{ item.usr }}</td>
+                    <td>{{ item.pwd }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+</body>
+</html>
