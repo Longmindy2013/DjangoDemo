@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f582469-1899-44ca-a4f1-2f26f4a55570" name="Default Changelist" comment="" />
+    <list default="true" id="9f582469-1899-44ca-a4f1-2f26f4a55570" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/09f77d7d-78a5-4fbb-9a21-d0719ca65ad0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/09f77d7d-78a5-4fbb-9a21-d0719ca65ad0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +52,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YTcjDv2zSwphhnMG1jeANPnalN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -62,10 +70,10 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RunManager" selected="Django server.djangodemo">
-    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="djangosite" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,11 +119,13 @@
       <method v="2" />
     </configuration>
     <configuration name="djangodemo" type="Python.DjangoServer" factoryName="Django server">
+      <log_file alias="$PROJECT_DIR$/log" path="$PROJECT_DIR$/log" />
       <module name="djangosite" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="djangodemo.settings" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -137,11 +147,6 @@
       <item itemvalue="Django server.djangodemo" />
       <item itemvalue="Python.manage" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.manage" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -156,21 +161,68 @@
       <workItem from="1582970257351" duration="7349000" />
       <workItem from="1583119230822" duration="46000" />
       <workItem from="1583157919309" duration="1169000" />
+      <workItem from="1583242440385" duration="53000" />
+      <workItem from="1583242510521" duration="1478000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit-2020-03-02 22:47:15" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit-2020-03-02 22:47:15" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="105" width="1071" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583158780841">
-      <screen x="0" y="23" width="1440" height="840" />
+    <state x="184" y="88" width="1071" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583246072638">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="184" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1583246072638" />
     <state x="184" y="105" width="1071" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.840@0.23.1440.840" timestamp="1583158780841" />
     <state x="408" y="178" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582970876756">
       <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="408" y="178" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.840@0.23.1440.840" timestamp="1582970876756" />
+    <state x="474" y="241" key="EnvironmentVariablesDialog" timestamp="1583245816702">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="474" y="241" key="EnvironmentVariablesDialog/0.0.1440.900@0.0.1440.900" timestamp="1583245816702" />
     <state width="1176" height="218" key="GridCell.Tab.0.bottom" timestamp="1582986500311">
       <screen x="0" y="23" width="1440" height="840" />
     </state>
@@ -228,10 +280,15 @@
       <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="308" y="185" key="IDE.errors.dialog/0.23.1440.840@0.23.1440.840" timestamp="1582985521927" />
-    <state x="229" y="82" key="SettingsEditor" timestamp="1582987298447">
-      <screen x="0" y="23" width="1440" height="840" />
+    <state x="229" y="63" key="SettingsEditor" timestamp="1583244391388">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="229" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583244391388" />
     <state x="229" y="82" key="SettingsEditor/0.23.1440.840@0.23.1440.840" timestamp="1582987298447" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583246612853">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583246612853" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DjangoDemo$manage.coverage" NAME="manage Coverage Results" MODIFIED="1582986350458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
