@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f582469-1899-44ca-a4f1-2f26f4a55570" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/09f77d7d-78a5-4fbb-9a21-d0719ca65ad0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/09f77d7d-78a5-4fbb-9a21-d0719ca65ad0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangodemo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangodemo/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -63,6 +64,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -162,8 +164,16 @@
       <workItem from="1583119230822" duration="46000" />
       <workItem from="1583157919309" duration="1169000" />
       <workItem from="1583242440385" duration="53000" />
-      <workItem from="1583242510521" duration="1478000" />
+      <workItem from="1583242510521" duration="2576000" />
     </task>
+    <task id="LOCAL-00001" summary="去除配置文件">
+      <created>1583246666186</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583246666186</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +207,11 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
       </map>
     </option>
     <option name="OPEN_TABS">
@@ -207,7 +222,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit-2020-03-02 22:47:15" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit-2020-03-02 22:47:15" />
+    <MESSAGE value="去除配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="去除配置文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="88" width="1071" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583246072638">
@@ -219,6 +235,10 @@
       <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="408" y="178" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.840@0.23.1440.840" timestamp="1582970876756" />
+    <state x="314" y="40" key="CommitChangelistDialog2" timestamp="1583246665935">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="314" y="40" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583246665935" />
     <state x="474" y="241" key="EnvironmentVariablesDialog" timestamp="1583245816702">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
