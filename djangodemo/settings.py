@@ -32,13 +32,14 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.admin',  # admin管理后台站点
+    'django.contrib.auth',  # 身份认证系统
+    'django.contrib.contenttypes',  # 内容类型框架
+    'django.contrib.sessions',  # 会话框架
+    'django.contrib.messages',  # 消息框架
+    'django.contrib.staticfiles',  # 静态文件管理框架
     'login',  # Django通过自带的ORM框架操作数据库，并原生支持轻量级的sqlite3数据库，使用前先注册。
+    'polls',
 ]
 
 MIDDLEWARE = [
@@ -78,7 +79,8 @@ WSGI_APPLICATION = 'djangodemo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',  # 指定使用的数据库类型
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),  # 自带
+        # 此处可替换为django.db.backends.sqlite3、django.db.backends.postgresql、django.db.backends.mysql、django.db.backends.oracle
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),  # 自带，使用非sqlite3数据库时，务必预先创建数据库。
     }
 }
 
@@ -105,7 +107,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+# TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'  # 设定为国内时区
 
 USE_I18N = True
 

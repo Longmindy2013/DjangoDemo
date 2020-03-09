@@ -4,8 +4,10 @@
       <w>asgi</w>
       <w>dhjrk</w>
       <w>djangodemo</w>
+      <w>lconf</w>
       <w>longmin</w>
       <w>makemigrations</w>
+      <w>postgresql</w>
       <w>startapp</w>
     </words>
   </dictionary>
