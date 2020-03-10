@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f582469-1899-44ca-a4f1-2f26f4a55570" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/longmin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/longmin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangodemo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangodemo/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangodemo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangodemo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +163,7 @@
       <workItem from="1583119230822" duration="46000" />
       <workItem from="1583157919309" duration="1169000" />
       <workItem from="1583242440385" duration="53000" />
-      <workItem from="1583242510521" duration="6169000" />
+      <workItem from="1583242510521" duration="7631000" />
     </task>
     <task id="LOCAL-00001" summary="去除配置文件">
       <created>1583246666186</created>
@@ -181,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583332859261</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3.9提交">
+      <created>1583763896849</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583763896849</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +237,8 @@
     <MESSAGE value="first commit-2020-03-02 22:47:15" />
     <MESSAGE value="去除配置文件" />
     <MESSAGE value="三月四日内容提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="三月四日内容提交" />
+    <MESSAGE value="3.9提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.9提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="88" width="1071" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583246072638">
@@ -244,10 +250,10 @@
       <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="408" y="178" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.840@0.23.1440.840" timestamp="1582970876756" />
-    <state x="314" y="40" key="CommitChangelistDialog2" timestamp="1583332859051">
+    <state x="314" y="40" key="CommitChangelistDialog2" timestamp="1583763896679">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="40" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583332859051" />
+    <state x="314" y="40" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583763896679" />
     <state x="474" y="241" key="EnvironmentVariablesDialog" timestamp="1583245816702">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -314,10 +320,10 @@
     </state>
     <state x="229" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583244391388" />
     <state x="229" y="82" key="SettingsEditor/0.23.1440.840@0.23.1440.840" timestamp="1582987298447" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583332941826">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583763907585">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583332941826" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583763907585" />
     <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583759753586">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
