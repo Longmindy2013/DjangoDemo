@@ -20,6 +20,6 @@ class Question(models.Model):
 
 
 class Choice(models.Model):
-    question = models.ForeignKey(Question, on_delete=models.CASCADE)
+    question = models.ForeignKey(Question, on_delete=models.CASCADE)  # 外键，Django支持通用的数据关系：一对一，多对一和多对多
     choice_text = models.CharField(max_length=200)
     votes = models.IntegerField(default=0)
