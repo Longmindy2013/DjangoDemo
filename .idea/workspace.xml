@@ -2,63 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f582469-1899-44ca-a4f1-2f26f4a55570" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/polls/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/09f77d7d-78a5-4fbb-9a21-d0719ca65ad0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/09f77d7d-78a5-4fbb-9a21-d0719ca65ad0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/djangosite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djangosite.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangodemo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangodemo/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="djangodemo" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="djangodemo" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="djangodemo" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="djangodemo" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="polls_choice: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="djangodemo" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="polls_question: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
-    </expand>
-    <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -75,13 +27,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/AaronLoong/DjangoDemo.git" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1YTcjDv2zSwphhnMG1jeANPnalN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -95,7 +53,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Django server.djangodemo">
+  <component name="RunManager" selected="Django Server.djangodemo">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="djangosite" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,7 +125,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django server.djangodemo" />
+      <item itemvalue="Django Server.djangodemo" />
       <item itemvalue="Python.manage" />
     </list>
   </component>
@@ -187,7 +145,13 @@
       <workItem from="1583242440385" duration="53000" />
       <workItem from="1583242510521" duration="7852000" />
       <workItem from="1583911597779" duration="1450000" />
-      <workItem from="1583935337793" duration="1785000" />
+      <workItem from="1583935337793" duration="2049000" />
+      <workItem from="1584000276881" duration="810000" />
+      <workItem from="1584688257787" duration="348000" />
+      <workItem from="1585105284002" duration="572000" />
+      <workItem from="1586396648685" duration="1000" />
+      <workItem from="1589087123892" duration="170000" />
+      <workItem from="1589087322738" duration="2286000" />
     </task>
     <task id="LOCAL-00001" summary="去除配置文件">
       <created>1583246666186</created>
@@ -217,11 +181,18 @@
       <option name="project" value="LOCAL" />
       <updated>1583851275317</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="3.11">
+      <created>1583937931360</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583937931360</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -253,18 +224,12 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-      </set>
-    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit-2020-03-02 22:47:15" />
@@ -272,7 +237,8 @@
     <MESSAGE value="三月四日内容提交" />
     <MESSAGE value="3.9提交" />
     <MESSAGE value="3.10提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.10提交" />
+    <MESSAGE value="3.11" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.11" />
   </component>
   <component name="WindowStateProjectService">
     <state x="429" y="83" key="#0001_initial" timestamp="1583934939814">
@@ -292,10 +258,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="449" y="188" key="#com.intellij.tools.ToolEditorDialog/0.0.1440.900@0.0.1440.900" timestamp="1583935226351" />
-    <state x="314" y="40" key="CommitChangelistDialog2" timestamp="1583851275172">
+    <state x="314" y="40" key="CommitChangelistDialog2" timestamp="1583937930991">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="40" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583851275172" />
+    <state x="314" y="40" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583937930991" />
     <state x="474" y="241" key="EnvironmentVariablesDialog" timestamp="1583245816702">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -357,15 +323,15 @@
       <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="308" y="185" key="IDE.errors.dialog/0.23.1440.840@0.23.1440.840" timestamp="1582985521927" />
-    <state x="229" y="63" key="SettingsEditor" timestamp="1583935233375">
+    <state x="229" y="63" key="SettingsEditor" timestamp="1584000258575">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583935233375" />
+    <state x="229" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1584000258575" />
     <state x="229" y="82" key="SettingsEditor/0.23.1440.840@0.23.1440.840" timestamp="1582987298447" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583851327997">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583937955828">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583851327997" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583937955828" />
     <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583759753586">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

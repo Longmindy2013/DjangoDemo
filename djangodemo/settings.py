@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',  # 消息框架
     'django.contrib.staticfiles',  # 静态文件管理框架
     'login',  # Django通过自带的ORM框架操作数据库，并原生支持轻量级的sqlite3数据库，使用前先注册。
-    'polls.apps.PollsConfig',  # 添加指向该应用的配置文件的链接，对应的点式路径为：polls.apps.PollsConfig,简写即可
+    'polls.apps.PollsConfig',  # 添加指向该应用的配置文件的链接，对应的点式路径为：polls.apps.PollsConfig，简写即可
 ]
 
 MIDDLEWARE = [
