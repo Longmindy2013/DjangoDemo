@@ -1,4 +1,7 @@
+import datetime
+
 from django.db import models
+from django.utils import timezone
 
 # Create your models here.
 """
@@ -15,11 +18,21 @@ Django通过ORM对数据库进行操作，奉行代码优先的理念，将pytho
 
 
 class Question(models.Model):
-    question_text = models.CharField(max_length=200)
+    question_text = models.CharField(max_length=200)  # 具体的Field实例
     pub_date = models.DateTimeField('date published')
 
+    def __str__(self):
+        return self.question_text
 
+    def was_published_recently(self):
+        return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
+
+
+# 每一个Choice选择都关联到一个Question，由python的类来实现，不接触任何SQL语句。
 class Choice(models.Model):
     question = models.ForeignKey(Question, on_delete=models.CASCADE)  # 外键，Django支持通用的数据关系：一对一，多对一和多对多
-    choice_text = models.CharField(max_length=200)
-    votes = models.IntegerField(default=0)
+    choice_text = models.CharField(max_length=200)  # 文本描述，一些Field类必须提供某些特定的参数，如这条中的max_length，为了数据结构和数据验证功能
+    votes = models.IntegerField(default=0)  # 选项投票数
+
+    def __str__(self):
+        return self.choice_text, self.votes
