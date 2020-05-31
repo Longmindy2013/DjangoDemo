@@ -52,6 +52,7 @@ path()方法：
 
 urlpatterns = [
     path('polls/', include('polls.urls')),
+    path('control/', admin.site.urls),  # 修改默认的admin登录地址为control
     path('admin/', admin.site.urls),
     path('index/', views.index)  # 重点是路由表达式和后面的视图函数
 ]

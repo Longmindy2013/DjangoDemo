@@ -35,4 +35,4 @@ class Choice(models.Model):
     votes = models.IntegerField(default=0)  # 选项投票数
 
     def __str__(self):
-        return self.choice_text, self.votes
+        return self.choice_text
