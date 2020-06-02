@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f582469-1899-44ca-a4f1-2f26f4a55570" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/09f77d7d-78a5-4fbb-9a21-d0719ca65ad0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/09f77d7d-78a5-4fbb-9a21-d0719ca65ad0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/longmin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/longmin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangodemo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangodemo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/polls/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +155,7 @@
       <workItem from="1586396648685" duration="1000" />
       <workItem from="1589087123892" duration="170000" />
       <workItem from="1589087322738" duration="2286000" />
+      <workItem from="1591106682807" duration="2213000" />
     </task>
     <task id="LOCAL-00001" summary="去除配置文件">
       <created>1583246666186</created>
@@ -245,6 +249,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="429" y="83" key="#0001_initial/0.0.1440.900@0.0.1440.900" timestamp="1583934939814" />
+    <state x="354" y="135" key="#Inspections" timestamp="1591106699092">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="354" y="135" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1591106699092" />
     <state x="184" y="88" width="1071" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583246072638">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -332,10 +340,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583937955828" />
-    <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583759753586">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="509" y="372" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591106730804">
+      <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1583759753586" />
+    <state x="509" y="372" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.840@0.23.1440.840" timestamp="1591106730804" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1583935375486">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

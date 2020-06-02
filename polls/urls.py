@@ -9,6 +9,7 @@ from django.urls import path
 from . import views
 
 
+app_name = 'polls'  # 使用URLconf的命名空间，添加变量来指定该应用的命名空间
 urlpatterns = [
     # ex: /polls/
     path('', views.index, name='index'),

@@ -7,10 +7,25 @@
 <body>
     <h1>{{ question.question_text }}</h1>
     {# 在{{ question.question_text }}中，DJango首先会在question对象中尝试查找一个字典，如果失败，则尝试查找属性，如果再失败，则尝试作为列表的索引进行查询。 #}
-    <u1>
+    {% if error_message %}
+        <p><strong>{{ error_message }}</strong></p>
+    {% endif %}
+    <form action="{% url 'polls:vote' question.id %}" method="post">
+        {# 由于发送了post请求，就必须考虑跨站请求伪造的安全问题。 #}
+        {# Django专门提供了一个方法，在form表单中添加一条下面的标签，标签名不可更改，固定格式，form表单内任意位置。 #}
+        {# 这个方法对form表单的方式方便好使，但对于ajax的方式请求数据就不能用这个方法了。 #}
+        {% csrf_token %}
         {% for choice in question.choice_set.all %}
-            <li>{{ choice.choice_text }}</li>
+            {# forloop.counter是Django模板系统专门提供的一个变量，用来表示你当前循环的次数，一般用来给循环项目添加有序数标 #}
+            <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
+            <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br>
         {% endfor %}
-    </u1>
+    <input type="submit" value="Vote">
+    </form>
+{#    <u1>#}
+{#        {% for choice in question.choice_set.all %}#}
+{#            <li>{{ choice.choice_text }}</li>#}
+{#        {% endfor %}#}
+{#    </u1>#}
 </body>
 </html>

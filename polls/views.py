@@ -1,9 +1,12 @@
 from django.shortcuts import render
 from django.shortcuts import get_object_or_404
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from .models import Question
 from django.template import loader
 from django.http import Http404
+from django.urls import reverse
+
+from .models import Choice, Question
 
 
 # Create your views here.
@@ -55,4 +58,19 @@ def results(request, question_id):
 
 
 def vote(request, question_id):
-    return HttpResponse("You are voting on question %s." % question_id)
+    # return HttpResponse("You are voting on question %s." % question_id)
+    question = get_object_or_404(Question, pk=question_id)
+    try:
+        selected_choice = question.choice_set.get(pk=request.POST['choice'])  # 此处返回被选择选项的ID，并且值的类型为字符串。
+        # request.POST是一个类似字典的对象，允许你通过键名访问提交的数据。同上可以获取GET请求发送过来的数据。
+    except(KeyError, Choice.DoesNotExist):  # 若POST数据中没有提供choice键值，前面的操作就可能引发KeyError异常。
+        return render(request, 'polls/detail.html', {
+            'question': question,
+            'error_message': "You didn't select a choice."
+        })
+    else:
+        selected_choice.votes += 1
+        selected_choice.save()
+        # HttpResponseRedirect需要一个参数：重定向的URL。
+        # 这里有一个建议，当你成功处理POST数据后，应当保持一个良好的习惯，始终返回一个HttpResponseRedirect。这不仅仅是对Django而言，它是一个良好的WEB开发习惯。
+        return HttpResponseRedirect(reverse('polls:results', args=(question.id,)))  # 此处的reverse()函数能够帮助我们避免在视图函数中硬编码URL。

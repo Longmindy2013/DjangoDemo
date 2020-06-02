@@ -10,7 +10,7 @@
             {% for question in latest_question_list %}
                 {# 去除硬编码内容 #}
                 {# <li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li> #}
-                <li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li>
+                <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
             {% endfor %}
         </ul>
     {% else %}
