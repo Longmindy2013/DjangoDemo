@@ -1,34 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f582469-1899-44ca-a4f1-2f26f4a55570" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/longmin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/longmin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9f582469-1899-44ca-a4f1-2f26f4a55570" name="Default Changelist" comment="6.2-新增笔记内容">
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polls/templates/polls/results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/djangosite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djangosite.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangodemo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangodemo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -54,7 +87,8 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RunManager" selected="Django Server.djangodemo">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -155,7 +189,16 @@
       <workItem from="1586396648685" duration="1000" />
       <workItem from="1589087123892" duration="170000" />
       <workItem from="1589087322738" duration="2286000" />
-      <workItem from="1591106682807" duration="2213000" />
+      <workItem from="1591106682807" duration="3756000" />
+      <workItem from="1591320784507" duration="415000" />
+      <workItem from="1591350840356" duration="5691000" />
+      <workItem from="1591585266045" duration="597000" />
+      <workItem from="1592292463260" duration="801000" />
+      <workItem from="1592360007096" duration="86000" />
+      <workItem from="1592360120931" duration="233000" />
+      <workItem from="1592398229568" duration="729000" />
+      <workItem from="1593940164907" duration="43000" />
+      <workItem from="1593940231743" duration="1639000" />
     </task>
     <task id="LOCAL-00001" summary="去除配置文件">
       <created>1583246666186</created>
@@ -192,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583937931360</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="6.2-新增笔记内容">
+      <created>1591108995227</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591108995227</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +278,19 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -242,7 +304,8 @@
     <MESSAGE value="3.9提交" />
     <MESSAGE value="3.10提交" />
     <MESSAGE value="3.11" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.11" />
+    <MESSAGE value="6.2-新增笔记内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.2-新增笔记内容" />
   </component>
   <component name="WindowStateProjectService">
     <state x="429" y="83" key="#0001_initial" timestamp="1583934939814">
@@ -253,6 +316,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="354" y="135" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1591106699092" />
+    <state x="320" y="91" key="#Plugins" timestamp="1591429617948">
+      <screen x="0" y="23" width="1440" height="840" />
+    </state>
+    <state x="320" y="91" key="#Plugins/0.23.1440.840@0.23.1440.840" timestamp="1591429617948" />
     <state x="184" y="88" width="1071" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583246072638">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -266,10 +333,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="449" y="188" key="#com.intellij.tools.ToolEditorDialog/0.0.1440.900@0.0.1440.900" timestamp="1583935226351" />
-    <state x="314" y="40" key="CommitChangelistDialog2" timestamp="1583937930991">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="314" y="23" width="775" height="840" key="CommitChangelistDialog2" timestamp="1591108989884">
+      <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="314" y="40" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583937930991" />
+    <state x="314" y="23" width="775" height="840" key="CommitChangelistDialog2/0.23.1440.840@0.23.1440.840" timestamp="1591108989884" />
     <state x="474" y="241" key="EnvironmentVariablesDialog" timestamp="1583245816702">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -331,24 +399,25 @@
       <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="308" y="185" key="IDE.errors.dialog/0.23.1440.840@0.23.1440.840" timestamp="1582985521927" />
-    <state x="229" y="63" key="SettingsEditor" timestamp="1584000258575">
+    <state x="229" y="63" key="SettingsEditor" timestamp="1591431882078">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1584000258575" />
+    <state x="229" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591431882078" />
     <state x="229" y="82" key="SettingsEditor/0.23.1440.840@0.23.1440.840" timestamp="1582987298447" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583937955828">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="320" y="200" key="Vcs.Push.Dialog.v2" timestamp="1591109046305">
+      <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583937955828" />
+    <state x="320" y="200" key="Vcs.Push.Dialog.v2/0.23.1440.840@0.23.1440.840" timestamp="1591109046305" />
     <state x="509" y="372" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591106730804">
       <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1583759753586" />
     <state x="509" y="372" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.840@0.23.1440.840" timestamp="1591106730804" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1583935375486">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1591451070286">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583935375486" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1591451070286" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DjangoDemo$manage.coverage" NAME="manage Coverage Results" MODIFIED="1582986350458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

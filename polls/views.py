@@ -5,6 +5,7 @@ from .models import Question
 from django.template import loader
 from django.http import Http404
 from django.urls import reverse
+from django.views import generic
 
 from .models import Choice, Question
 
@@ -15,46 +16,79 @@ from .models import Choice, Question
 """
 
 
-def index(request):
-    """ 根据发布日期显示最近的五个投票问卷 """
-    latest_question_list = Question.objects.order_by('-pub_date')[:5]
-    # output = ', '.join([q.question_text for q in latest_question_list])
-    # return HttpResponse(output)
-    # return HttpResponse("Hello, World! ")
-    """
-        快捷方式：render
-            在实际运用中，加载模板、传递参数，返回HttpResponse对象，Django提供的快捷方式
-        render()函数的第一个位置参数是请求对象（就是view函数的第一个参数），第二个位置参数是模板，还有一个可选的第三参数 - 字典，包含
-        需要传递给模板的数据。
-        render()函数返回一个经过字典数据渲染过的模板封装而成的HttpResponse对象。
-    """
-    # template = loader.get_template('polls/index.html')
-    context = {'latest_question_list': latest_question_list}
-    # return HttpResponse(template.render(context, request))
-    return render(request, 'polls/index.html', context)
+# def index(request):
+#     """ 根据发布日期显示最近的五个投票问卷 """
+#     latest_question_list = Question.objects.order_by('-pub_date')[:5]
+#     # output = ', '.join([q.question_text for q in latest_question_list])
+#     # return HttpResponse(output)
+#     # return HttpResponse("Hello, World! ")
+#     """
+#         快捷方式：render
+#             在实际运用中，加载模板、传递参数，返回HttpResponse对象，Django提供的快捷方式
+#         render()函数的第一个位置参数是请求对象（就是view函数的第一个参数），第二个位置参数是模板，还有一个可选的第三参数 - 字典，包含
+#         需要传递给模板的数据。
+#         render()函数返回一个经过字典数据渲染过的模板封装而成的HttpResponse对象。
+#     """
+#     # template = loader.get_template('polls/index.html')
+#     context = {'latest_question_list': latest_question_list}
+#     # return HttpResponse(template.render(context, request))
+#     return render(request, 'polls/index.html', context)
 
 
-def detail(request, question_id):
-    # try:
-    #     question = Question.objects.get(pk=question_id)
-    # except Question.DoesNotExist:
-    #     raise Http404("Question does not exist.")
-    """ 快捷方式：get_object_or_404()
-    get_object_or_404()方法将一个Django模型作为第一个位置参数，后面可以跟上任意个数的关键字参数，如果对象不存在则弹出Http404错误。
-    ** 使用get_object_or_404()辅助函数而不自己捕获ObjectDoesNotExist异常的原因在于：减少模型层和视图层的耦合性。
-    Django指导思想之一就是保证松散耦合。一些受控的耦合将会被包含在django.shortcuts模块中
+# def detail(request, question_id):
+#     # try:
+#     #     question = Question.objects.get(pk=question_id)
+#     # except Question.DoesNotExist:
+#     #     raise Http404("Question does not exist.")
+#     """ 快捷方式：get_object_or_404()
+#     get_object_or_404()方法将一个Django模型作为第一个位置参数，后面可以跟上任意个数的关键字参数，如果对象不存在则弹出Http404错误。
+#     ** 使用get_object_or_404()辅助函数而不自己捕获ObjectDoesNotExist异常的原因在于：减少模型层和视图层的耦合性。
+#     Django指导思想之一就是保证松散耦合。一些受控的耦合将会被包含在django.shortcuts模块中
+#
+#     类似地，get_list_or_404()函数用来替代filter()函数，当查询列表为空时弹出404错误。
+#         filter是模型API中用来过滤结果的函数，它的结果是一个列表集，而get则是查询一个结果的方法，和filter是一个和多个的关系。
+#     """
+#     question = get_object_or_404(Question, pk=question_id)
+#     return render(request, 'polls/detail.html', {'question': question})
+#     # return HttpResponse("You are looking at question %s." % question_id)
 
-    类似地，get_list_or_404()函数用来替代filter()函数，当查询列表为空时弹出404错误。
-        filter是模型API中用来过滤结果的函数，它的结果是一个列表集，而get则是查询一个结果的方法，和filter是一个和多个的关系。
-    """
-    question = get_object_or_404(Question, pk=question_id)
-    return render(request, 'polls/detail.html', {'question': question})
-    # return HttpResponse("You are looking at question %s." % question_id)
+
+# def results(request, question_id):
+#     # response = "You are looking at the results of question %s." % question_id
+#     # return HttpResponse(response)
+#     question = get_object_or_404(Question, pk=question_id)
+#     return render(request, 'polls/results.html', {'question': question})
+"""
+    下面使用的ListView和DetailView（作为父类被继承的），这两者分别代表'显示一个对象的列表'和'显示特定类型对象的详细页面'的抽象概念
+    注：1. 每一种通用视图都需要知道它要作用在哪个模型上，通过model属性提供
+    注：2. DetailView需要从url捕获到的成为"pk"的主键值
+    
+    默认情况下，DetailView通用视图使用一个称作<app name>/<model name>_detail.html的模板
+    template_name属性就是用来指定这个模板名的，用来代替自动生成的默认模板名。
+    
+    同理，ListView通用视图使用一个默认模板为<app name>/<model name>_list.html的模板
+    
+
+"""
 
 
-def results(request, question_id):
-    response = "You are looking at the results of question %s." % question_id
-    return HttpResponse(response)
+class IndexView(generic.ListView):
+    template_name = 'polls/index.html'
+    context_object_name = 'latest_question_list'  # 对于ListView，自动生成的上下文变量是question_list，所以使用context_object_name来覆盖它。
+
+    def get_queryset(self):
+        """ return the last five published questions. """
+        return Question.objects.order_by('-pub_date')[:5]
+
+
+class DetailView(generic.DetailView):
+    model = Question
+    template_name = 'polls/detail.html'
+
+
+class ResultView(generic.DetailView):
+    model = Question
+    template_name = 'polls/results.html'
 
 
 def vote(request, question_id):

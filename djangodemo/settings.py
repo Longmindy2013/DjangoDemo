@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',  # 内容类型框架
     'django.contrib.sessions',  # 会话框架
     'django.contrib.messages',  # 消息框架
+    # 收集每个应用（和任何你指定的地方）的静态文件到一个统一指定的地方，并且易于访问。
     'django.contrib.staticfiles',  # 静态文件管理框架
     'login',  # Django通过自带的ORM框架操作数据库，并原生支持轻量级的sqlite3数据库，使用前先注册。
     'polls.apps.PollsConfig',  # 添加指向该应用的配置文件的链接，对应的点式路径为：polls.apps.PollsConfig，直接写成polls亦可。
