@@ -27,79 +27,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f582469-1899-44ca-a4f1-2f26f4a55570" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/djangodemo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/djangodemo/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/djangodemo/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/djangodemo/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/djangodemo/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/login/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/login/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/login/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/login/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/login/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/login/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/login/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/login/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/polls/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/polls/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/polls/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/polls/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/polls/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/polls/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/polls/templates/polls/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/polls/templates/polls/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/polls/templates/polls/results.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/polls/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/polls/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/polls/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/record.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/templates/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackUp/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/09f77d7d-78a5-4fbb-9a21-d0719ca65ad0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/09f77d7d-78a5-4fbb-9a21-d0719ca65ad0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/login/static/login/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/login/templates/login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/login/templates/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/login/templates/login/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/djangosite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djangosite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangodemo/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangodemo/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangodemo/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangodemo/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangodemo/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/results.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/record.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/login/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,8 +52,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -161,11 +100,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -441,7 +381,7 @@
       <workItem from="1596350078072" duration="245000" />
       <workItem from="1601372654983" duration="898000" />
       <workItem from="1601430474036" duration="64000" />
-      <workItem from="1601430558650" duration="3388000" />
+      <workItem from="1601430558650" duration="7688000" />
     </task>
     <task id="LOCAL-00001" summary="去除配置文件">
       <created>1583246666186</created>
@@ -492,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593958406897</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="init">
+      <created>1601448989320</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601448989320</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,7 +502,8 @@
     <MESSAGE value="3.10提交" />
     <MESSAGE value="3.11" />
     <MESSAGE value="6.2-新增笔记内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.2-新增笔记内容" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="613" y="321" key="#Notifications" timestamp="1594464899798">
@@ -567,42 +515,47 @@
     </state>
     <state x="184" y="112" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-227.-1057.1920.1057@0.0.1440.900" timestamp="1601435645973" />
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1601437106193" />
+    <state x="446" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601449091932">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="446" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1601449091932" />
     <state x="408" y="194" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596267547037">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="408" y="194" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1596267547037" />
     <state x="408" y="194" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1594464917538" />
-    <state x="314" y="0" width="775" height="840" key="CommitChangelistDialog2" timestamp="1593958406594">
+    <state x="314" y="0" width="775" height="840" key="CommitChangelistDialog2" timestamp="1601448988984">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="314" y="0" key="CommitChangelistDialog2/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1601448988984" />
     <state x="314" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1593958406594" />
-    <state width="699" height="303" key="GridCell.Tab.0.bottom" timestamp="1601446943572">
+    <state width="635" height="245" key="GridCell.Tab.0.bottom" timestamp="1601455390809">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="699" height="303" key="GridCell.Tab.0.bottom/0.0.1440.863/-227.-1057.1920.1057@0.0.1440.863" timestamp="1601435881282" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900/-227.-1057.1920.1057@0.0.1440.900" timestamp="1601435647903" />
-    <state width="699" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1601446943572" />
+    <state width="635" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1601455390809" />
     <state width="1101" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877/-227.-1057.1920.1057@0.23.1440.877" timestamp="1594890370005" />
-    <state width="699" height="303" key="GridCell.Tab.0.center" timestamp="1601446943570">
+    <state width="635" height="245" key="GridCell.Tab.0.center" timestamp="1601455390807">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="699" height="303" key="GridCell.Tab.0.center/0.0.1440.863/-227.-1057.1920.1057@0.0.1440.863" timestamp="1601435881281" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900/-227.-1057.1920.1057@0.0.1440.900" timestamp="1601435647901" />
-    <state width="699" height="303" key="GridCell.Tab.0.center/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1601446943570" />
+    <state width="635" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1601455390807" />
     <state width="1101" height="245" key="GridCell.Tab.0.center/0.23.1440.877/-227.-1057.1920.1057@0.23.1440.877" timestamp="1594890370003" />
-    <state width="699" height="303" key="GridCell.Tab.0.left" timestamp="1601446943568">
+    <state width="635" height="245" key="GridCell.Tab.0.left" timestamp="1601455390806">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="699" height="303" key="GridCell.Tab.0.left/0.0.1440.863/-227.-1057.1920.1057@0.0.1440.863" timestamp="1601435881280" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900/-227.-1057.1920.1057@0.0.1440.900" timestamp="1601435647900" />
-    <state width="699" height="303" key="GridCell.Tab.0.left/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1601446943568" />
+    <state width="635" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1601455390806" />
     <state width="1101" height="245" key="GridCell.Tab.0.left/0.23.1440.877/-227.-1057.1920.1057@0.23.1440.877" timestamp="1594890370000" />
-    <state width="699" height="303" key="GridCell.Tab.0.right" timestamp="1601446943571">
+    <state width="635" height="245" key="GridCell.Tab.0.right" timestamp="1601455390808">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="699" height="303" key="GridCell.Tab.0.right/0.0.1440.863/-227.-1057.1920.1057@0.0.1440.863" timestamp="1601435881281" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900/-227.-1057.1920.1057@0.0.1440.900" timestamp="1601435647902" />
-    <state width="699" height="303" key="GridCell.Tab.0.right/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1601446943571" />
+    <state width="635" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1601455390808" />
     <state width="1101" height="245" key="GridCell.Tab.0.right/0.23.1440.877/-227.-1057.1920.1057@0.23.1440.877" timestamp="1594890370004" />
     <state width="699" height="303" key="GridCell.Tab.1.bottom" timestamp="1601446943575">
       <screen x="0" y="0" width="1440" height="900" />
@@ -656,13 +609,15 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1601432241410" />
-    <state x="228" y="88" key="SettingsEditor" timestamp="1601432258126">
+    <state x="228" y="88" key="SettingsEditor" timestamp="1601455304657">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="228" y="88" key="SettingsEditor/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1601432258126" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1593958424645">
+    <state x="228" y="88" key="SettingsEditor/0.0.1440.900/-227.-1057.1920.1057@0.0.1440.900" timestamp="1601455304657" />
+    <state x="228" y="88" key="SettingsEditor/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1601450448305" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1601448998841">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1601448998841" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1593958424645" />
     <state x="434" y="247" key="git4idea.merge.GitPullDialog" timestamp="1594081436421">
       <screen x="0" y="0" width="1440" height="900" />
