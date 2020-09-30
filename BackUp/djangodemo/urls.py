@@ -16,9 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.urls import include
-from login import views
-from polls import views
-
+from BackUp.polls import views
 
 """
 主路由文件

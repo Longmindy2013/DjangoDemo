@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eee33a9d-4bc4-4d88-8dcf-d86b3ede5011" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/djangodemo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/djangodemo/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/djangodemo/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/djangodemo/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/djangodemo/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/login/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/login/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/login/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/login/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/login/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/login/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/login/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/login/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/polls/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/polls/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/polls/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/polls/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/polls/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/polls/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/polls/templates/polls/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/polls/templates/polls/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/polls/templates/polls/results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/polls/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/polls/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/polls/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/templates/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackUp/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/djangosite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/djangosite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangodemo/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangodemo/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangodemo/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangodemo/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangodemo/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polls/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polls/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polls/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polls/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polls/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polls/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polls/templates/polls/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polls/templates/polls/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polls/templates/polls/results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polls/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polls/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polls/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../record.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="JupyterTrust" id="a9b88a42-bd0d-4357-8b5c-e000baa2166c" />
+  <component name="ProjectId" id="1iD7vQdpDrU62B7gGZOYRpDKO7P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="mysite" type="Python.DjangoServer" factoryName="Django server">
+      <module name="mysite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eee33a9d-4bc4-4d88-8dcf-d86b3ede5011" name="Default Changelist" comment="" />
+      <created>1601430538763</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601430538763</updated>
+      <workItem from="1601430540425" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

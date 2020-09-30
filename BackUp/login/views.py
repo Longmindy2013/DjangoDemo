@@ -3,8 +3,7 @@
 """
 
 from django.shortcuts import render
-from django.shortcuts import HttpResponse
-from login import models
+from BackUp.login import models
 
 
 # Create your views here.
