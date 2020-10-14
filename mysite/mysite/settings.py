@@ -121,3 +121,11 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+# Email configuration
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.qq.com'
+EMAIL_PORT = '25'
+EMAIL_HOST_USER = '1624683462@qq.com'
+EMAIL_HOST_PASSWORD = 'lojrtquxwycrebdi'  # 此处应为QQ邮箱登录第三方客户端的授权码

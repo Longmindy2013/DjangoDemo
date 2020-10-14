@@ -27,14 +27,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f582469-1899-44ca-a4f1-2f26f4a55570" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mysite/login/static/login/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/send_mail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbabfaea-bb56-4f4a-b5ee-f5766ccfbc3b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fbabfaea-bb56-4f4a-b5ee-f5766ccfbc3b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/login/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/login/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/login/templates/login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/login/templates/login/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/login/templates/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/login/templates/login/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/login/templates/login/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/login/templates/login/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/login/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/login/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/login/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/login/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/login/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +51,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="Python Script" />
         <option value="CSS File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -110,7 +111,7 @@
       <recent name="$PROJECT_DIR$/BackUp" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.send_mail">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="Scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,6 +172,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="send_mail" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="djangosite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysite/send_mail.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -331,6 +354,11 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.send_mail" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -381,7 +409,10 @@
       <workItem from="1601430474036" duration="64000" />
       <workItem from="1601430558650" duration="8427000" />
       <workItem from="1602469708872" duration="25000" />
-      <workItem from="1602469774538" duration="14895000" />
+      <workItem from="1602469774538" duration="15032000" />
+      <workItem from="1602643939335" duration="123000" />
+      <workItem from="1602644131596" duration="295000" />
+      <workItem from="1602659739857" duration="3558000" />
     </task>
     <task id="LOCAL-00001" summary="去除配置文件">
       <created>1583246666186</created>
@@ -453,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602571102011</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="init_03">
+      <created>1602583339819</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602583339819</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +556,8 @@
     <MESSAGE value="6.2-新增笔记内容" />
     <MESSAGE value="init" />
     <MESSAGE value="init_02" />
-    <option name="LAST_COMMIT_MESSAGE" value="init_02" />
+    <MESSAGE value="init_03" />
+    <option name="LAST_COMMIT_MESSAGE" value="init_03" />
   </component>
   <component name="WindowStateProjectService">
     <state x="613" y="321" key="#Notifications" timestamp="1594464899798">
@@ -539,38 +578,37 @@
     </state>
     <state x="408" y="194" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1596267547037" />
     <state x="408" y="194" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1594464917538" />
-    <state x="314" y="0" width="775" height="840" key="CommitChangelistDialog2" timestamp="1602571101744">
+    <state x="314" y="0" width="775" height="840" key="CommitChangelistDialog2" timestamp="1602583339569">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="0" key="CommitChangelistDialog2/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602571101744" />
-    <state x="314" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1593958406594" />
-    <state width="715" height="245" key="GridCell.Tab.0.bottom" timestamp="1602556086801">
+    <state x="314" y="0" key="CommitChangelistDialog2/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602583339569" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1602663460687">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.863/-227.-1057.1920.1057@0.0.1440.863" timestamp="1602493650447" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900/-227.-1057.1920.1057@0.0.1440.900" timestamp="1601435647903" />
-    <state width="715" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602556086801" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602663460687" />
     <state width="1101" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877/-227.-1057.1920.1057@0.23.1440.877" timestamp="1594890370005" />
-    <state width="715" height="245" key="GridCell.Tab.0.center" timestamp="1602556086799">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1602663460682">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.863/-227.-1057.1920.1057@0.0.1440.863" timestamp="1602493650443" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900/-227.-1057.1920.1057@0.0.1440.900" timestamp="1601435647901" />
-    <state width="715" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602556086799" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602663460682" />
     <state width="1101" height="245" key="GridCell.Tab.0.center/0.23.1440.877/-227.-1057.1920.1057@0.23.1440.877" timestamp="1594890370003" />
-    <state width="715" height="245" key="GridCell.Tab.0.left" timestamp="1602556086798">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1602663460679">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.863/-227.-1057.1920.1057@0.0.1440.863" timestamp="1602493650440" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900/-227.-1057.1920.1057@0.0.1440.900" timestamp="1601435647900" />
-    <state width="715" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602556086798" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602663460679" />
     <state width="1101" height="245" key="GridCell.Tab.0.left/0.23.1440.877/-227.-1057.1920.1057@0.23.1440.877" timestamp="1594890370000" />
-    <state width="715" height="245" key="GridCell.Tab.0.right" timestamp="1602556086800">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1602663460685">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.863/-227.-1057.1920.1057@0.0.1440.863" timestamp="1602493650446" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900/-227.-1057.1920.1057@0.0.1440.900" timestamp="1601435647902" />
-    <state width="715" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602556086800" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602663460685" />
     <state width="1101" height="245" key="GridCell.Tab.0.right/0.23.1440.877/-227.-1057.1920.1057@0.23.1440.877" timestamp="1594890370004" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1602493655313">
       <screen x="0" y="0" width="1440" height="900" />
@@ -630,11 +668,10 @@
     <state x="228" y="88" key="SettingsEditor/0.0.1440.900/-227.-1057.1920.1057@0.0.1440.900" timestamp="1601455304657" />
     <state x="228" y="88" key="SettingsEditor/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602469683473" />
     <state x="323" y="136" key="SettingsEditor/0.23.1440.840/-227.-1057.1920.1057@0.23.1440.840" timestamp="1602492027509" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1602571105740">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1602583344588">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602571105740" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1593958424645" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602583344588" />
     <state x="521" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602571059448">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -649,6 +686,7 @@
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602576016481" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DjangoDemo$send_mail.coverage" NAME="send_mail Coverage Results" MODIFIED="1602663422902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysite" />
     <SUITE FILE_PATH="coverage/DjangoDemo$asyc.coverage" NAME="asyc Coverage Results" MODIFIED="1594869073744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Scripts" />
     <SUITE FILE_PATH="coverage/DjangoDemo$manage.coverage" NAME="manage Coverage Results" MODIFIED="1582986350458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

@@ -2,8 +2,25 @@ from django.shortcuts import render
 from django.shortcuts import redirect
 from . import models
 from . import forms
+import hashlib
+import datetime
+
 
 # Create your views here.
+
+
+def hash_code(s, salt='mysite'):
+	h = hashlib.sha256()
+	s += salt
+	h.update(s.encode())
+	return h.hexdigest()
+
+
+def make_confirm_string(user):
+	now = datetime.datetime.now().strftime(fmt="%Y-%m-%d %H:%M:%S")
+	code = hash_code(user.name, now)
+	models.ConfirmString.objects.create(code=code, user=user,)
+	return code
 
 
 def index(request):
@@ -30,7 +47,7 @@ def login(request):
 			except:
 				# message = '用户不存在'
 				return render(request, 'login/login.html', locals())  # 字典参数
-			if user.password == password:
+			if user.password == hash_code(password):
 				# 往session字典内写入用户状态和数据
 				request.session['is_login'] = True
 				request.session['user_id'] = user.id
@@ -73,11 +90,16 @@ def register(request):
 					return render(request, 'login/register.html', locals())
 				new_user = models.User()
 				new_user.name = username
-				new_user.password = password1
+				new_user.password = hash_code(password1)
 				new_user.email = email
 				new_user.sex = sex
 				new_user.save()
-				return redirect('/login/')
+
+				code = make_confirm_string(new_user)
+				send_email(email, code)
+
+				message = '请前往邮箱进行确认'
+				return render(request, 'login/confirm.html', locals())
 		else:
 			return render(request, 'login/register.html', locals())
 	register_from = forms.RegisterForm()
