@@ -129,3 +129,4 @@ EMAIL_HOST = 'smtp.qq.com'
 EMAIL_PORT = '25'
 EMAIL_HOST_USER = '1624683462@qq.com'
 EMAIL_HOST_PASSWORD = 'lojrtquxwycrebdi'  # 此处应为QQ邮箱登录第三方客户端的授权码
+CONFIRM_DAYS = 7  # 注册的有效期天数

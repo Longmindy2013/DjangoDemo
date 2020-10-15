@@ -1,10 +1,15 @@
-from django.shortcuts import render
-from django.shortcuts import redirect
-from . import models
-from . import forms
-import hashlib
 import datetime
+import hashlib
+import os
+import sys
 
+from django.shortcuts import redirect
+from django.shortcuts import render
+
+from . import forms
+from . import models
+
+sys.path.append(os.path.dirname(__file__) + os.sep + '../')
 
 # Create your views here.
 
@@ -19,7 +24,7 @@ def hash_code(s, salt='mysite'):
 def make_confirm_string(user):
 	now = datetime.datetime.now().strftime(fmt="%Y-%m-%d %H:%M:%S")
 	code = hash_code(user.name, now)
-	models.ConfirmString.objects.create(code=code, user=user,)
+	models.ConfirmString.objects.create(code=code, user=user, )
 	return code
 
 
@@ -47,6 +52,11 @@ def login(request):
 			except:
 				# message = '用户不存在'
 				return render(request, 'login/login.html', locals())  # 字典参数
+
+			if not user.has_confirmed:
+				message = '您还未对注册邮件进行确认！'
+				return render(request, 'login/login.html', locals())
+
 			if user.password == hash_code(password):
 				# 往session字典内写入用户状态和数据
 				request.session['is_login'] = True
@@ -111,3 +121,26 @@ def logout(request):
 		return redirect('/login/')
 	request.session.flush()
 	return redirect("/login/")
+
+
+def user_confirm(request):
+	code = request.GET.get('code', None)
+	message = ''
+	try:
+		confirm = models.ConfirmString.objects.get(code=code)
+	except:
+		message = '无效的确认请求'
+		return render(request, 'login/confirm.html', locals())
+
+	c_time = confirm.c_time
+	now = datetime.datetime.now()
+	if now > c_time + datetime.timedelta(settings.CONFIRM_DAYS):
+		confirm.user.delete()
+		message = '您的邮件已经过期，请重新注册！'
+		return render(request, 'login/confirm.html', locals())
+	else:
+		confirm.user.has_confirmed = True
+		confirm.user.save()
+		confirm.delete()
+		message = '感谢确认，请使用账户登录！'
+		return render(request, 'login/confirm.html', locals())

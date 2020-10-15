@@ -12,11 +12,11 @@
 <body>
     <div class="container">
         <div class="col">
-          <form class="form-login" action="/login/" method="post" novalidate>
-                {% if message %}
-                  <div class="alert alert-warning" >{{ message }}</div>
-                {% elif login_form.captcha.errors %}
-                  <div class="alert alert-warning">{{ login_form.captcha.errors }}</div>
+          <form class="form-login" action="/login/" method="post">
+                {% if login_form.captcha.errors %}
+                  <div class="alert alert-warning" >{{ login_form.captcha.errors }}</div>
+                {% elif message %}
+                  <div class="alert alert-warning">{{ message }}</div>
                 {% endif %}
               {% csrf_token %}
               <h3 class="text-center">欢迎登录</h3>
