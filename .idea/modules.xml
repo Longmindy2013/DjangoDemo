@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RegisterSystem/.idea/RegisterSystem.iml" filepath="$PROJECT_DIR$/RegisterSystem/.idea/RegisterSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assert/.idea/assert.iml" filepath="$PROJECT_DIR$/assert/.idea/assert.iml" />
       <module fileurl="file://$PROJECT_DIR$/djangoProject/.idea/djangoProject.iml" filepath="$PROJECT_DIR$/djangoProject/.idea/djangoProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/djangosite.iml" filepath="$PROJECT_DIR$/.idea/djangosite.iml" />
     </modules>
