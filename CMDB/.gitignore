@@ -1,12 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
-### Example user template template
-### Example user template
-
-# IntelliJ project files
-.idea
-*.iml
-out
-gen
 ### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -146,9 +138,4 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-将删除 backup/log/
-将删除 backup/static/
-将删除 mysite/login/migrations/0002_auto_20201014_1658.py
-将删除 mysite/requirements.txt
-将删除 mysite/templates/
-将删除 templates/
+
