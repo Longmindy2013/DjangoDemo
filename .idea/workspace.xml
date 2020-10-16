@@ -27,9 +27,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f582469-1899-44ca-a4f1-2f26f4a55570" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/djangosite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djangosite.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmp/Client/bin/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmp/Client/bin/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmp/Client/core/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmp/Client/core/handler.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -415,7 +413,7 @@
       <workItem from="1602749557073" duration="4411000" />
       <workItem from="1602815106022" duration="121000" />
       <workItem from="1602815318034" duration="1557000" />
-      <workItem from="1602816925111" duration="1373000" />
+      <workItem from="1602816925111" duration="2246000" />
     </task>
     <task id="LOCAL-00001" summary="去除配置文件">
       <created>1583246666186</created>
@@ -536,7 +534,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602817400085</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="init cmp content 02">
+      <created>1602829988697</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1602829988697</updated>
+    </task>
+    <task id="LOCAL-00019" summary="init cmp content 03">
+      <created>1602830011491</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1602830011491</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,7 +620,9 @@
     <MESSAGE value="add cmdb content-init 01" />
     <MESSAGE value="add cmdb content-init 02" />
     <MESSAGE value="init cmp content 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="init cmp content 01" />
+    <MESSAGE value="init cmp content 02" />
+    <MESSAGE value="init cmp content 03" />
+    <option name="LAST_COMMIT_MESSAGE" value="init cmp content 03" />
   </component>
   <component name="WindowStateProjectService">
     <state x="613" y="321" key="#Notifications" timestamp="1594464899798">
@@ -629,10 +643,10 @@
     </state>
     <state x="408" y="194" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1596267547037" />
     <state x="408" y="194" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1594464917538" />
-    <state x="314" y="23" width="775" height="840" key="CommitChangelistDialog2" timestamp="1602817399833">
+    <state x="314" y="23" width="775" height="840" key="CommitChangelistDialog2" timestamp="1602830011319">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="23" key="CommitChangelistDialog2/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602817399833" />
+    <state x="314" y="23" key="CommitChangelistDialog2/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602830011319" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1602663460687">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -709,10 +723,10 @@
     <state width="1398" height="303" key="GridCell.Tab.2.right/0.0.1440.863/-227.-1057.1920.1057@0.0.1440.863" timestamp="1601435880686" />
     <state width="1398" height="303" key="GridCell.Tab.2.right/0.0.1440.900/-227.-1057.1920.1057@0.0.1440.900" timestamp="1601435647915" />
     <state width="1398" height="303" key="GridCell.Tab.2.right/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602493655315" />
-    <state x="308" y="202" key="IDE.errors.dialog" timestamp="1602816914350">
-      <screen x="0" y="23" width="1440" height="840" />
+    <state x="308" y="192" key="IDE.errors.dialog" timestamp="1602830022477">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1601432241410" />
+    <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602830022477" />
     <state x="308" y="202" key="IDE.errors.dialog/0.23.1440.840/-227.-1057.1920.1057@0.23.1440.840" timestamp="1602816914350" />
     <state x="484" y="177" key="RollbackChangesDialog" timestamp="1602753899242">
       <screen x="0" y="0" width="1440" height="900" />
@@ -724,10 +738,10 @@
     <state x="228" y="88" key="SettingsEditor/0.0.1440.900/-227.-1057.1920.1057@0.0.1440.900" timestamp="1602730784863" />
     <state x="228" y="88" key="SettingsEditor/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602814435842" />
     <state x="323" y="136" key="SettingsEditor/0.23.1440.840/-227.-1057.1920.1057@0.23.1440.840" timestamp="1602492027509" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1602817405688">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1602830016847">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602817405688" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602830016847" />
     <state x="521" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602571059448">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

@@ -44,3 +44,6 @@ class ArgvHandler(object):
 	@staticmethod
 	def collect_data():
 		""" 收集硬件信息，用于测试 """
+		info = info_collection.InfoCollection()
+		asset_data = info.collect()
+		print(asset_data)
