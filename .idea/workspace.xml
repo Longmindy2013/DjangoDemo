@@ -27,22 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f582469-1899-44ca-a4f1-2f26f4a55570" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CMDB/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CMDB/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMDB/CMDB/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CMDB/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMDB/assets/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CMDB/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMDB/assets/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CMDB/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMDB/assets/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CMDB/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMDB/assets/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CMDB/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMDB/assets/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CMDB/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMDB/assets/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/assets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMDB/assets/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/assets/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMDB/CMDB/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/assets/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMDB/CMDB/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/assets/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMDB/CMDB/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/assets/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMDB/CMDB/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMDB/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMDB/assets/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMDB/assets/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -423,7 +409,7 @@
       <workItem from="1602644131596" duration="295000" />
       <workItem from="1602659739857" duration="7723000" />
       <workItem from="1602731012541" duration="1251000" />
-      <workItem from="1602749557073" duration="1798000" />
+      <workItem from="1602749557073" duration="3284000" />
     </task>
     <task id="LOCAL-00001" summary="去除配置文件">
       <created>1583246666186</created>
@@ -523,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602750677323</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add cmdb content-init 01">
+      <created>1602753503621</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602753503621</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,7 +585,8 @@
     <MESSAGE value="init_04" />
     <MESSAGE value="init_05" />
     <MESSAGE value="add cmdb content" />
-    <option name="LAST_COMMIT_MESSAGE" value="add cmdb content" />
+    <MESSAGE value="add cmdb content-init 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cmdb content-init 01" />
   </component>
   <component name="WindowStateProjectService">
     <state x="613" y="321" key="#Notifications" timestamp="1594464899798">
@@ -613,10 +607,10 @@
     </state>
     <state x="408" y="194" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1596267547037" />
     <state x="408" y="194" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1594464917538" />
-    <state x="314" y="23" width="775" height="840" key="CommitChangelistDialog2" timestamp="1602750677056">
+    <state x="314" y="23" width="775" height="840" key="CommitChangelistDialog2" timestamp="1602753503358">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="23" key="CommitChangelistDialog2/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602750677056" />
+    <state x="314" y="23" key="CommitChangelistDialog2/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602753503358" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1602663460687">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -697,16 +691,20 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1601432241410" />
+    <state x="484" y="177" key="RollbackChangesDialog" timestamp="1602753899242">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="484" y="177" key="RollbackChangesDialog/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602753899242" />
     <state x="228" y="88" key="SettingsEditor" timestamp="1602730982464">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="228" y="88" key="SettingsEditor/0.0.1440.900/-227.-1057.1920.1057@0.0.1440.900" timestamp="1602730784863" />
     <state x="228" y="88" key="SettingsEditor/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602730982464" />
     <state x="323" y="136" key="SettingsEditor/0.23.1440.840/-227.-1057.1920.1057@0.23.1440.840" timestamp="1602492027509" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1602750683647">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1602753507727">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602750683647" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602753507727" />
     <state x="521" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602571059448">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
