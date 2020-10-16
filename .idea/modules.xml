@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CMDB/.idea/CMDB.iml" filepath="$PROJECT_DIR$/CMDB/.idea/CMDB.iml" />
       <module fileurl="file://$PROJECT_DIR$/RegisterSystem/.idea/RegisterSystem.iml" filepath="$PROJECT_DIR$/RegisterSystem/.idea/RegisterSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/assert/.idea/assert.iml" filepath="$PROJECT_DIR$/assert/.idea/assert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backup/CMDB/.idea/assets.iml" filepath="$PROJECT_DIR$/backup/CMDB/.idea/assets.iml" />
       <module fileurl="file://$PROJECT_DIR$/djangoProject/.idea/djangoProject.iml" filepath="$PROJECT_DIR$/djangoProject/.idea/djangoProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/djangosite.iml" filepath="$PROJECT_DIR$/.idea/djangosite.iml" />
     </modules>

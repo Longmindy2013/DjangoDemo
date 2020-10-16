@@ -27,8 +27,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f582469-1899-44ca-a4f1-2f26f4a55570" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cmp/Client/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp/Client/bin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp/Client/conf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp/Client/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp/Client/core/handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp/Client/core/info_collection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp/Client/log/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp/Client/plugins/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp/cmp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp/cmp/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp/cmp/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp/cmp/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/djangosite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djangosite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMDB/assets/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMDB/assets/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMDB/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMDB/CMDB/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMDB/CMDB/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMDB/CMDB/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMDB/CMDB/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmp/cmp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMDB/CMDB/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMDB/assets/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMDB/assets/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMDB/assets/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMDB/assets/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMDB/assets/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMDB/assets/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMDB/assets/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMDB/manage.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +72,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -91,7 +119,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="true" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/backup/CMDB/.idea/modules.xml&#10;true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -103,6 +131,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backup" />
       <recent name="$PROJECT_DIR$/BackUp" />
     </key>
   </component>
@@ -409,7 +438,10 @@
       <workItem from="1602644131596" duration="295000" />
       <workItem from="1602659739857" duration="7723000" />
       <workItem from="1602731012541" duration="1251000" />
-      <workItem from="1602749557073" duration="3284000" />
+      <workItem from="1602749557073" duration="4411000" />
+      <workItem from="1602815106022" duration="121000" />
+      <workItem from="1602815318034" duration="1557000" />
+      <workItem from="1602816925111" duration="407000" />
     </task>
     <task id="LOCAL-00001" summary="去除配置文件">
       <created>1583246666186</created>
@@ -516,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602753503621</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add cmdb content-init 02">
+      <created>1602813623101</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602813623101</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,7 +625,8 @@
     <MESSAGE value="init_05" />
     <MESSAGE value="add cmdb content" />
     <MESSAGE value="add cmdb content-init 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="add cmdb content-init 01" />
+    <MESSAGE value="add cmdb content-init 02" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cmdb content-init 02" />
   </component>
   <component name="WindowStateProjectService">
     <state x="613" y="321" key="#Notifications" timestamp="1594464899798">
@@ -607,10 +647,10 @@
     </state>
     <state x="408" y="194" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1596267547037" />
     <state x="408" y="194" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1594464917538" />
-    <state x="314" y="23" width="775" height="840" key="CommitChangelistDialog2" timestamp="1602753503358">
+    <state x="314" y="23" width="775" height="840" key="CommitChangelistDialog2" timestamp="1602813622832">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="23" key="CommitChangelistDialog2/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602753503358" />
+    <state x="314" y="23" key="CommitChangelistDialog2/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602813622832" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1602663460687">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -687,43 +727,33 @@
     <state width="1398" height="303" key="GridCell.Tab.2.right/0.0.1440.863/-227.-1057.1920.1057@0.0.1440.863" timestamp="1601435880686" />
     <state width="1398" height="303" key="GridCell.Tab.2.right/0.0.1440.900/-227.-1057.1920.1057@0.0.1440.900" timestamp="1601435647915" />
     <state width="1398" height="303" key="GridCell.Tab.2.right/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602493655315" />
-    <state x="308" y="192" key="IDE.errors.dialog" timestamp="1601432241410">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="308" y="202" key="IDE.errors.dialog" timestamp="1602816914350">
+      <screen x="0" y="23" width="1440" height="840" />
     </state>
     <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1601432241410" />
+    <state x="308" y="202" key="IDE.errors.dialog/0.23.1440.840/-227.-1057.1920.1057@0.23.1440.840" timestamp="1602816914350" />
     <state x="484" y="177" key="RollbackChangesDialog" timestamp="1602753899242">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="484" y="177" key="RollbackChangesDialog/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602753899242" />
-    <state x="228" y="88" key="SettingsEditor" timestamp="1602730982464">
+    <state x="228" y="88" key="SettingsEditor" timestamp="1602814435842">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="228" y="88" key="SettingsEditor/0.0.1440.900/-227.-1057.1920.1057@0.0.1440.900" timestamp="1602730784863" />
-    <state x="228" y="88" key="SettingsEditor/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602730982464" />
+    <state x="228" y="88" key="SettingsEditor/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602814435842" />
     <state x="323" y="136" key="SettingsEditor/0.23.1440.840/-227.-1057.1920.1057@0.23.1440.840" timestamp="1602492027509" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1602753507727">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1602813627492">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602753507727" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602813627492" />
     <state x="521" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602571059448">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="521" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602571059448" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1602576016481">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1602814059605">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602576016481" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/mysite/mysite/settings.py</url>
-          <line>110</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1602814059605" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DjangoDemo$send_mail.coverage" NAME="send_mail Coverage Results" MODIFIED="1602663422902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysite" />

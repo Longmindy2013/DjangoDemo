@@ -23,6 +23,8 @@
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="popper" level="application" />
     <orderEntry type="module" module-name="assert" />
+    <orderEntry type="module" module-name="assets" />
+    <orderEntry type="module" module-name="CMDB" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
