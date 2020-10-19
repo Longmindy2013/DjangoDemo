@@ -22,4 +22,6 @@ from apitest.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('welcome/', welcome),  # 主页
+    path('', default),  # 直接访问ip:port显示内容
+    path('home/', home),
 ]
