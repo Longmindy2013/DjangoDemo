@@ -1,11 +1,13 @@
-{% load static %}
+{% include 'welcome.html' %}
 <!DOCTYPE html>
 <html lang="zh_CN">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>主页</title>
 </head>
+
 <body style="text-align: center;background-image: url('../static/image/background.jpg')" >
+    {% block content %}{% endblock %}
     <h1>欢迎使用 接口测试 平台</h1>
     <h3>Welcome to apiTest platform.</h3>
 

@@ -15,5 +15,8 @@ def default(request):
 
 
 def home(request):
-	pass
 	return render(request, 'home.html')
+
+
+def child(request, eid, oid):
+	return render(request, eid)

@@ -10,7 +10,9 @@
     <!--include plugin css-->
     <link type="text/css" rel="stylesheet" href="/static/css/jquery-rvnm.css" />
 </head>
+
 <body>
+    {% block content %}
     <nav id="navbar" class="">
             <ul>
                 <li>
@@ -41,7 +43,38 @@
             </ul>
 
         </nav>
+        <button id="menu-btn" onclick="display_menu()" style="margin-left: 217px;background-color: #181717;color: white;border-radius: 0 50px 50px 0">隐藏</button>
+        <script>
+        function display_menu(){
+            let menu = document.getElementById('navbar');
+            let btn = document.getElementById('menu-btn');
 
+            if (btn.innerText === '隐藏'){
+                menu.style.display = 'none';
+                btn.style.marginLeft = '0px';
+                btn.innerText = '显示';
+            } else {
+                menu.style.display = 'block';
+                btn.style.marginLeft = '217px';
+                btn.innerText = '隐藏';
+            }
+        }
+        </script>
+        <a href="/home/">
+        <style type="text/css">
+            .homepage_button {
+                float: right;
+                height: 35px;
+                width: 100px;
+                background-color: #353C48;
+                color: white;
+                border-radius: 0 0 0 10px;
+                font-size: large;
+            }
+        </style>
+            <button class="homepage_button">Homepage</button>
+    </a>
+    {% endblock %}
 	<script src="/static/js/jquery-1.11.0.min.js" type="text/javascript"></script>
         <!--include plugin js-->
         <script type="text/javascript" src="/static/js/jquery-rvnm.js"></script>
@@ -59,11 +92,18 @@
                 rvnMenu.setTheme('dark-ruby');
             });
         </script>
+
+
     <div style="background: linear-gradient(to bottom, #f597bf, #7ef5bf);
     text-align: center;
     border-radius: 5px;
     box-shadow: 4px 4px 10px #535353">
         <h1 style="color: #fff9f4">欢迎来到 接口测试平台 首页！</h1>
     </div>
+
+    <div id="common_page"></div>
+    <script>
+        $('#common_page').load('/child/'+ '{{ whichHTML }}/{{ oid }}/')
+    </script>
 </body>
 </html>
