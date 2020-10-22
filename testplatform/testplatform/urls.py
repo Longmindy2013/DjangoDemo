@@ -22,8 +22,10 @@ from apitest.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('welcome/', welcome),  # 主页
+    path('welcome/', welcome),
     path('', default),  # 直接访问ip:port显示内容
     url(r'^home/$', home),
-    # url(r"^child/(?P<eid>.+)/(?P<oid>.*)/$", child),  # 返回子页面
+    path('login/', login),
+    path('register/', register),
+    url(r'^login_action/$', login_action),
 ]

@@ -20,3 +20,26 @@ def home(request):
 
 def child(request, eid, oid):
 	return render(request, eid)
+
+
+def login(request):
+	pass
+	return render(request, 'login.html')
+
+
+def register(request):
+	pass
+	return render(request, 'register')
+
+
+def login_action(request):
+	username = request.GET['username']
+	password = request.GET['password']
+	print(username, password)
+
+	from django.contrib import auth
+	user = auth.authenticate(username=username, password=password)
+	if user is not None:
+		return HttpResponseRedirect('/home/')
+	else:
+		return HttpResponse('')
