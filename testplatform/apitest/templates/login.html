@@ -5,50 +5,15 @@
     <title>测试平台登录</title>
     <style>
         body {
-            background: url("../static/image/login_background.jpeg") fixed;
+            background-image: url("/static/image/login_background.jpeg");
+            background-attachment: fixed;
             background-size: cover;
         }
     </style>
     <script src="../static/js/jquery-1.11.0.min.js" type="text/javascript"></script>
+    <link type="text/css" rel="stylesheet" href="/static/css/apitest-base.css">
 </head>
 <body>
-    <style type="text/css">
-        .login {
-            box-shadow: 4px 4px 6px #2a262a;
-            margin-left: -webkit-calc(50% - 150px);
-            margin-top: 200px;
-            width: 320px;
-            height: 320px;
-            background-color: white;
-            opacity: 0.8;
-            border-radius: 20px;
-            text-align: center;
-        }
-        .info_input {
-            width: 90%;
-            background-color: #d1d0d1;
-            border-radius: 50px;
-            text-align: center;
-            float: right;
-            margin-right: 10px;
-            margin-left: 10px;
-            height: 30px;
-            border: 0;
-        }
-        .commit_button {
-            width: 90%;
-            height: 35px;
-            border-radius: 50px;
-            background-color: #f25e78;
-            color: white;
-            font-size: large;
-            border: 0;
-            box-shadow: 4px 4px 4px #a0a0a0;
-        }
-        span {
-            color: #f25e78;
-        }
-    </style>
     <div class="login">
         <br>
         <strong><span style="font-size: xx-large; color: #1e1107; text-align: center">接口测试平台</span></strong>
@@ -67,11 +32,22 @@
         <br><br><br>
         <button class="commit_button" onclick="login()">登 陆</button>
         <br><br>
-        <span style="font-size: xx-small">若首次登陆,请点击 <a href="/register/">注册账号</a></span>
+        <span style="font-size: xx-small">若首次登陆,请点击 <a href="javascript:register()">注册账号</a></span>
         <br><br>
     </div>
 
     <script>
+        function register() {
+            let username = document.getElementById('Username').value;
+            let password = document.getElementById('Password').value;
+
+            $.get("/register_action/",{
+                "username":username,
+                "password":password
+            },function (ret){
+                alert(ret)
+            })
+        }
         function login() {
             let username = document.getElementById('Username').value;
             let password = document.getElementById('Password').value;
@@ -80,7 +56,11 @@
                 "username":username,
                 "password":password
             },function (ret){
-                alert('您的用户名或密码错误')
+                if (ret === '成功'){
+                    document.location.href = '/home/'
+                }else {
+                    alert('您的用户名或密码错误')
+                }
             })
         }
     </script>

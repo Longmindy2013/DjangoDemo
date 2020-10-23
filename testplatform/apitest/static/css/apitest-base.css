@@ -1,0 +1,56 @@
+/* welcome.html */
+.homepage_button {
+    float: right;
+    height: 35px;
+    width: 100px;
+    background-color: #353C48;
+    color: white;
+    border-radius: 0 0 0 10px;
+    font-size: large
+}
+
+.exit_button {
+    height: 35px;
+    width: 100px;
+    background-color: #353C48;
+    color: white;
+    border-radius: 0 0 0 10px;
+    font-size: large;
+}
+
+/* login.html */
+.login {
+    box-shadow: 4px 4px 6px #2a262a;
+    margin-left: -webkit-calc(50% - 150px);
+    margin-top: 200px;
+    width: 320px;
+    height: 320px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 20px;
+    text-align: center;
+}
+.info_input {
+    width: 90%;
+    background-color: #d1d0d1;
+    border-radius: 50px;
+    text-align: center;
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 30px;
+    border: 0;
+}
+.commit_button {
+    width: 90%;
+    height: 35px;
+    border-radius: 50px;
+    background-color: #f25e78;
+    color: white;
+    font-size: large;
+    border: 0;
+    box-shadow: 4px 4px 4px #a0a0a0;
+}
+span {
+    color: #f25e78;
+}

@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.conf.urls import url
+from django.urls import re_path
 
 from apitest.views import *
 
@@ -24,8 +24,12 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('welcome/', welcome),
     path('', default),  # 直接访问ip:port显示内容
-    url(r'^home/$', home),
+    re_path(r"^child/(?P<eid>.+)/(?P<oid>.*)/$", child),  # 返回子页面
+    re_path(r'^home/$', home),
     path('login/', login),
     path('register/', register),
-    url(r'^login_action/$', login_action),
+    re_path(r'^login_action/$', login_action),
+    re_path(r'^register_action/$', register_action),
+    re_path(r'^accounts/login/$', login),
+    re_path(r'^logout/$', logout),
 ]
