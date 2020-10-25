@@ -18,6 +18,13 @@
     font-size: large;
 }
 
+/* home.html */
+.title h1 h3 {
+    color: black;
+    text-align: center;
+    margin-left: 410px;
+}
+
 /* login.html */
 .login {
     box-shadow: 4px 4px 6px #2a262a;

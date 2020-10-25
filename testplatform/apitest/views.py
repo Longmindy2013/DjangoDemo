@@ -23,7 +23,7 @@ def child(request, eid, oid):
 
 @login_required
 def home(request):
-    return render(request, 'home.html')
+    return render(request, 'welcome.html', {"whichHTML": "Home.html", "oid": ""})
 
 
 def login(request):

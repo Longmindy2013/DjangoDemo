@@ -90,9 +90,10 @@
         <h1 style="color: #fff9f4">欢迎来到 接口测试平台 首页！</h1>
     </div>
     -->
-    <div id="page1" ></div>
+
+    <div id="common_page"> </div>
     <script>
-        $('#page1').load('/child/'+'{{ whichHTML }}/{{ oid }}/')
+        $('#common_page').load('/child/'+'{{ whichHTML }}/{{ oid }}/')
 
         if( "{{ whichHTML }}" !== 'Home.html' ) {
             document.getElementById('menu_btn').click();
