@@ -32,4 +32,6 @@ urlpatterns = [
     re_path(r'^register_action/$', register_action),
     re_path(r'^accounts/login/$', login),
     re_path(r'^logout/$', logout),
+    re_path(r'^tucao/$', tucao),
+    path('help/', p_help),
 ]

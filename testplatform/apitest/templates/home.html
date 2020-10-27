@@ -2,14 +2,35 @@
 <html lang="zh_CN">
 <head>
     <meta charset="UTF-8">
+    <style>
+        body {
+            background-image: url("/static/image/background.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
     <title>主页</title>
     <link type="text/css" rel="stylesheet" href="/static/css/apitest-base.css">
 </head>
 
-<body style="text-align: center;background-image: url('/static/image/background.jpg')" >
-    <h1  style="color: black;margin-left: -webkit-calc(60% - 200px)">欢迎使用 接口测试 平台</h1>
-    <h3  style="color: black;margin-left: -webkit-calc(62% - 200px)">Welcome to apiTest platform.</h3>
-
+<body>
+    <div style="text-align: center">
+        <h1  style="color: black;margin-left: -webkit-calc(15% - 100px)">欢迎{{ Username }}使用 接口测试 平台</h1>
+        <h3  style="color: black;margin-left: -webkit-calc(10% - 100px)">Welcome to ApiTest platform.</h3>
+        <textarea id="tucao_input" cols="50" rows="10" style="margin-left: -webkit-calc(12% - 100px);border-radius: 5px;padding-left: 10px;box-shadow: 4px 4px 9px gray;" placeholder="吐槽星人专用吐槽场所，及时跟进吐槽意见，这是匿名的哦~~"></textarea>
+        <br>
+        <button style="margin-left: -webkit-calc(10% - 100px);width: 100px;border-radius: 0 0 50px 50px" onclick="tucao()">提交(⇀‸↼‶)</button>
+    </div>
+    <script>
+        function tucao(){
+            $.get("/home/",{
+                "tucao_text": document.getElementById('tucao_input').value,
+            },function (ret) {
+                alert('已成功吐槽！')
+            })
+        }
+    </script>
+    <!--
     <div style="border: 1px solid black;width: 400px;text-align: left;margin-left: -webkit-calc(50% - 100px);padding-left: 10px">
         <h2>如何使用：</h2>
         1. 打开左侧菜单<br>
@@ -25,6 +46,7 @@
     <span style="color: black;margin-left: -webkit-calc(60% - 200px)">或进入<a href="">本平台的优化建议</a>中进行反馈</span>
     <br><br>
     <img src="/static/image/tp2.png" alt="哦呦~图片不见了！" style="width: 240px;height: 100px;margin-left: -webkit-calc(60% - 200px);background-color: darkcyan">
+    -->
 
 </body>
 </html>

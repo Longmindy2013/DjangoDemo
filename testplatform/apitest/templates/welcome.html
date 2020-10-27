@@ -26,7 +26,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/help/">
                         帮助
                     </a>
                 </li>
@@ -83,10 +83,10 @@
     </script>
 
     <!--
-    <div style="background: linear-gradient(to bottom, #f597bf, #7ef5bf);
+    <div id="welcome_title" style="background: linear-gradient(to bottom, #f597bf, #7ef5bf);
     text-align: center;
     border-radius: 5px;
-    box-shadow: 4px 4px 10px #535353">
+    box-shadow: 4px 10px #535353">
         <h1 style="color: #fff9f4">欢迎来到 接口测试平台 首页！</h1>
     </div>
     -->
@@ -97,6 +97,12 @@
 
         if( "{{ whichHTML }}" !== 'Home.html' ) {
             document.getElementById('menu_btn').click();
+        }
+    </script>
+
+    <script>
+        if ("{{ whichHTML }}" !== "/home/") {
+            document.getElementById('menu-btn').click();
         }
     </script>
 </body>

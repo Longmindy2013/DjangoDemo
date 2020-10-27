@@ -2,13 +2,13 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.http import HttpResponseRedirect
 from django.contrib.auth.decorators import login_required
+from apitest.models import *
 
 # Create your views here.
 
 
 @login_required()
 def welcome(request):
-    pass
     return render(request, 'welcome.html')
 
 
@@ -17,7 +17,7 @@ def default(request):
 
 
 # 返回子页面
-def child(request, eid, oid):
+def child(request, eid, oid=None):
     return render(request, eid)
 
 
@@ -34,6 +34,16 @@ def login(request):
 def register(request):
     pass
     return render(request, 'register.html')
+
+
+def tucao(request):
+    tucao_text = request.GET['tucao_text']
+    tucao.objects.create(user=request.user.username, text=tucao_text)
+    return HttpResponse('')
+
+
+def p_help(request):
+    return render(request, 'welcome.html', {"whichHTML": "help.html", "oid": ""})
 
 
 # 退出登录
