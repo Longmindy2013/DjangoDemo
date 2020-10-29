@@ -17,8 +17,21 @@ def default(request):
 
 
 # 返回子页面
-def child(request, eid, oid=None):
-    return render(request, eid)
+def child(request, eid, oid):
+    res = child_json(eid)
+    return render(request, eid, res)
+
+
+# 控制不同的页面返回不同的数据：数据分发器
+def child_json(eid):
+    res = {}
+    if eid == 'Home.html':
+        date = home_link.objects.all()
+        res = {"links": date}
+    elif eid == 'project_list.html':
+        date = project.objects.all()
+        res = {"projects": date}
+    return res
 
 
 @login_required
@@ -79,3 +92,8 @@ def register_action(request):
         return HttpResponse('注册成功！')
     except:
         return HttpResponse('注册失败！用户似乎已经存在了呢~~')
+
+
+def project_list(request):
+    pass
+    return render(request, 'welcome.html', {"whichHTML": "project_list.html", "oid": ""})

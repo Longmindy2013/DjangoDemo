@@ -10,13 +10,16 @@
     <!--include a plugin css-->
     <link type="text/css" rel="stylesheet" href="/static/css/jquery-rvnm.css" />
     <link type="text/css" rel="stylesheet" href="/static/css/apitest-base.css">
+    <!---->
+    <script type="text/javascript" src="/static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/static/bootstrap-3.3.7-dist/css/bootstrap.min.css">
 </head>
 
 <body>
     <nav id="navbar" class="">
             <ul>
                 <li>
-                    <a href="#">
+                    <a href="/project_list/">
                         <!--i class="fa fa-bell-o"></i-->
                         项目列表
                     </a>
@@ -101,7 +104,7 @@
     </script>
 
     <script>
-        if ("{{ whichHTML }}" !== "/home/") {
+        if ("{{ whichHTML }}" !== "Home.html") {
             document.getElementById('menu-btn').click();
         }
     </script>

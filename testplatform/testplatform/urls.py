@@ -34,4 +34,5 @@ urlpatterns = [
     re_path(r'^logout/$', logout),
     re_path(r'^tucao/$', tucao),
     path('help/', p_help),
+    path('project_list/', project_list),
 ]

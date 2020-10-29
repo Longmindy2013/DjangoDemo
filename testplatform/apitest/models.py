@@ -40,3 +40,14 @@ class home_link(models.Model):
 
 	def __str__(self):
 		return self.link_name
+
+
+class project(models.Model):
+	project_name = models.CharField(max_length=1000, null=True, verbose_name='项目名称')
+	project_remark = models.CharField(max_length=1000, null=True, verbose_name='项目备注')
+	project_build_user = models.CharField(max_length=256, null=True, verbose_name='项目创建者名称')
+	project_build_other_user = models.CharField(max_length=256, null=True, verbose_name='项目其他创建者的名称')
+
+	def __str__(self):
+		return self.project_name
+

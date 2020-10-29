@@ -17,9 +17,45 @@
     <div style="text-align: center">
         <h1  style="color: black;margin-left: -webkit-calc(15% - 100px)">欢迎{{ Username }}使用 接口测试 平台</h1>
         <h3  style="color: black;margin-left: -webkit-calc(10% - 100px)">Welcome to ApiTest platform.</h3>
-        <textarea id="tucao_input" cols="50" rows="10" style="margin-left: -webkit-calc(12% - 100px);border-radius: 5px;padding-left: 10px;box-shadow: 4px 4px 9px gray;" placeholder="吐槽星人专用吐槽场所，及时跟进吐槽意见，这是匿名的哦~~"></textarea>
+
+        <div style="border: 1px solid black;border-radius: 10px 10px 10px 10px;text-align: center;background-color: #e3ffe3;opacity: 0.8;color: white;margin-left: 300px;margin-right: 100px">
+            <h3 style="color: #3e2935">欢迎使用传送门: </h3>
+            <strong>
+                {% for i in links %}
+                <a href="{{ i.link_content }}" target="_blank" style="color:#353c48;text-decoration: none">{{ i.link_name }}</a><br>
+                {% endfor %}
+            </strong>
+            <br>
+        </div>
+
         <br>
-        <button style="margin-left: -webkit-calc(10% - 100px);width: 100px;border-radius: 0 0 50px 50px" onclick="tucao()">提交(⇀‸↼‶)</button>
+        <div style="border: 1px solid black;border-radius: 10px 10px 10px 10px;text-align: center;background-color: #e3ffe3;opacity: 0.8;color: white;margin-left: 300px;margin-right: 100px">
+            <h3 style="color: #3e2935">您的项目：</h3>
+            <span style="color: black">
+            {# 这里存放后续的个人项目列表循环，类似传送门的套路 ,点击自己创建的项目可以直接进入项目内 #}
+            </span>
+            <br>
+        </div>
+
+        <br>
+        <div style="border: 1px solid black;border-radius: 10px 10px 10px 10px;text-align: center;background-color: #e3ffe3;opacity: 0.8;color: white;margin-left: 300px;margin-right: 100px">
+            <h3 style="color: #3e2935">最新消息：</h3>
+            <span style="color: black">
+            帮助页面上线；<br>
+            后台开启，仅限有管理权限同学使用；<br>
+            项目列表上线，您现在可以进入所有项目内了 <br>
+            </span>
+            <br>
+        </div>
+
+        <br>
+        <div style="border: 1px solid black;border-radius: 10px 10px 10px 10px;text-align: center;background-color: #e3ffe3;opacity: 0.8;color: white;margin-left: 300px;margin-right: 100px">
+            <br>
+            <textarea id="tucao_input" cols="50" rows="5" style="margin-left: -webkit-calc(12% - 100px);border-radius: 5px;padding-left: 10px;box-shadow: 4px 4px 9px gray;" placeholder="吐槽星人专用吐槽场所，及时跟进吐槽意见，这是匿名的哦~~"></textarea>
+            <br>
+            <button style="margin-left: -webkit-calc(10% - 100px);width: 100px;border-radius: 0 0 50px 50px" onclick="tucao()">提交(⇀‸↼‶)</button>
+        </div>
+
     </div>
     <script>
         function tucao(){
