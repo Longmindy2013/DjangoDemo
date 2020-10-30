@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>项目列表</title>
+    <link type="text/css" href="/static/css/apitest-base.css">
 </head>
 <body>
+    <h3 style="padding-left: 10px;color: #353c48">项目列表：<span style="font-size: small;color: grey;">（这里显示全部项目,您可以进入他人的项目中查看）</span></h3>
+
+    <button class="add-new-project-button" onclick="document.getElementById('add_project_div').style.display='block'">新增项目</button>
+
     <table class="table table-striped">
         <thead>
             <tr>
@@ -15,10 +20,44 @@
         <tbody>
             {% for i in projects %}
                 <tr>
-                    <td>{{ i.id }}</td> <td>{{ i.project_name }}</td> <td>{{ i.project_build_user }}</td> <td>{{ i.project_remark }}</td> <td><button>进入</button> <button>删除</button></td>
+                    <td>{{ i.id }}</td> <td>{{ i.project_name }}</td> <td>{{ i.project_build_user }}</td> <td>{{ i.project_remark }}</td> <td><button onclick="document.location.href='/apis/{{ i.id }}'" class="btn btn-success">进入</button> <button onclick="delete_project('{{ i.id }}')" class="btn btn-danger">删除</button></td>
                 </tr>
             {% endfor %}
         </tbody>
     </table>
+    
+    <script>
+        function delete_project(id) {
+            if(confirm('确定要删除该项目吗？') === false){
+                return NaN
+            }
+            $.get('/delete_project/',{
+                'id': id
+            }, function (ret) {
+                document.location.reload()
+            })
+        }
+    </script>
+
+    <div class="popup_div" id="add_project_div">
+        <h3>项目名称：(最多100字)</h3>
+        <label>
+            <input id="project_name" type="text" placeholder="请输入项目名称：" style="width: 95%">
+        </label>
+        <br><br>
+        <button class="btn btn-danger" onclick="document.getElementById('add_project_div').style.display='none'">取消</button>
+        <button class="btn btn-success" onclick="add_project()">确认</button>
+    </div>
+    <script>
+        function add_project() {
+            let project_name = document.getElementById('project_name').value;
+            $.get('/add_project/',{
+                'project_name': project_name,
+            },function (ret) {
+                document.location.reload()  //返回后直接刷新页面
+            })
+        }
+    </script>
+    
 </body>
 </html>

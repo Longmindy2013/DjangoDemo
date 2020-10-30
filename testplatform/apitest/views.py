@@ -18,12 +18,12 @@ def default(request):
 
 # 返回子页面
 def child(request, eid, oid):
-    res = child_json(eid)
+    res = child_json(eid, oid)
     return render(request, eid, res)
 
 
 # 控制不同的页面返回不同的数据：数据分发器
-def child_json(eid):
+def child_json(eid, oid=''):
     res = {}
     if eid == 'Home.html':
         date = home_link.objects.all()
@@ -31,6 +31,9 @@ def child_json(eid):
     elif eid == 'project_list.html':
         date = project.objects.all()
         res = {"projects": date}
+    elif eid == 'api_library.html':
+        project_name = project.objects.filter(id=oid)[0]
+        res = {"project_name": project_name}
     return res
 
 
@@ -97,3 +100,30 @@ def register_action(request):
 def project_list(request):
     pass
     return render(request, 'welcome.html', {"whichHTML": "project_list.html", "oid": ""})
+
+
+def delete_project(request):
+    project_id = request.GET['id']
+    project.objects.filter(id=project_id).delete()
+    return HttpResponse('')
+
+
+def add_project(request):
+    project_name = request.GET['project_name']
+    project.objects.create(project_name=project_name, project_remark='', project_build_user=request.user.username, project_build_other_user='')
+    return HttpResponse('')
+
+
+def to_apis_library(request, id):
+    project_id = id
+    return render(request, 'welcome.html', {"whichHTML": "api_library.html", "oid": project_id})
+
+
+def to_cases_library(request, id):
+    project_id = id
+    return render(request, 'welcome.html', {"whichHTML": "case_library.html", "oid": ""})
+
+
+def to_project_settings(request, id):
+    project_id = id
+    return render(request, 'welcome.html', {"whichHTML": "project_settings.html", "oid": ""})

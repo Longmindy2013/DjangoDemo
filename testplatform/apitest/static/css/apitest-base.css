@@ -61,3 +61,32 @@
 span {
     color: #f25e78;
 }
+
+/* project_list.html */
+.add-new-project-button {
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-top: 0;
+    position: fixed;
+    top: 0;
+    left: -webkit-calc(50% - 75px);
+    width: 150px;
+    height: 40px;
+    font-size: x-large;
+    background-color: white;
+    color:black ;
+    border-radius: 0 0 10px 10px;
+}
+
+.popup_div {
+    width: 50%;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    left: 25%;
+    top: 30px;
+    padding-left: 10px;
+    box-shadow: 4px 4px 8px grey;
+    border-radius: 5px;
+    display: none;  //默认隐藏
+}

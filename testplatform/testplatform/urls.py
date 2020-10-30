@@ -35,4 +35,9 @@ urlpatterns = [
     re_path(r'^tucao/$', tucao),
     path('help/', p_help),
     path('project_list/', project_list),
+    path('delete_project/', delete_project),
+    path('add_project/', add_project),
+    re_path(r'^apis/(?P<id>.*)$', to_apis_library),
+    re_path(r'^apis/(?P<id>.*)$', to_cases_library),
+    re_path(r'^apis/(?P<id>.*)$', to_project_settings),
 ]
