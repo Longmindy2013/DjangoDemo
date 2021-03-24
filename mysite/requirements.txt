@@ -350,7 +350,7 @@ robotframework-lsp==0.2.2
 robotframework-mongodblibrary==0.3.4
 robotframework-ride==1.7.4.2
 robotframework-seleniumlibrary==4.4.0
-rsa==4.0
+rsa==4.1
 scipy==1.4.1
 Scrapy==1.8.0
 seaborn==0.9.0
