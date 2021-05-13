@@ -180,7 +180,7 @@ pyasn1-modules==0.2.7
 PyAutoGUI==0.9.48
 pycodestyle==2.5.0
 pycparser==2.19
-pydantic==1.5.1
+pydantic==1.6.2
 PyDispatcher==2.0.5
 pyelftools==0.26
 pyflakes==2.1.1
