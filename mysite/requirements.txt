@@ -22,7 +22,7 @@ attrs==19.3.0
 atxserver2==0.1.4
 Automat==20.2.0
 AxmlParserPY==0.0.3
-Babel==2.7.0
+Babel==2.9.1
 bcrypt==3.1.7
 BeautifulReport==0.1.2
 beautifulsoup4==4.8.2
