@@ -375,7 +375,7 @@ stevedore==1.31.0
 svn==1.0.1
 tblib==1.6.0
 tensorboard==2.0.2
-tensorflow==2.0.0
+tensorflow==2.5.3
 tensorflow-estimator==2.0.1
 termcolor==1.1.0
 texttable==1.6.2
