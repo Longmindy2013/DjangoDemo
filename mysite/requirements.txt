@@ -148,7 +148,7 @@ opencv-contrib-python==3.4.2.17
 opt-einsum==3.1.0
 packaging==20.4
 pandas==1.0.3
-paramiko==2.7.1
+paramiko==2.10.1
 parse==1.12.1
 parse-type==0.5.2
 parsel==1.5.2
