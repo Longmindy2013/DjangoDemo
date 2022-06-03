@@ -28,7 +28,7 @@ BeautifulReport==0.1.2
 beautifulsoup4==4.8.2
 billiard==3.6.3.0
 bleach==3.1.0
-bottle==0.12.18
+bottle==0.12.20
 bs4==0.0.1
 bson==0.5.9
 bunch==1.0.1
