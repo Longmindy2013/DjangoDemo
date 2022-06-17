@@ -352,7 +352,7 @@ robotframework-ride==1.7.4.2
 robotframework-seleniumlibrary==4.4.0
 rsa==4.0
 scipy==1.4.1
-Scrapy==1.8.0
+Scrapy==2.6.1
 seaborn==0.9.0
 selenium==3.141.0
 service-identity==18.1.0
