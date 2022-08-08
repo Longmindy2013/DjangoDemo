@@ -186,7 +186,7 @@ pyelftools==0.26
 pyflakes==2.1.1
 PyGetWindow==0.0.8
 PyGithub==1.45
-Pygments==2.5.2
+Pygments==2.7.4
 PyHamcrest==2.0.1
 pyheatmap==0.1.12
 PyJWT==1.7.1
