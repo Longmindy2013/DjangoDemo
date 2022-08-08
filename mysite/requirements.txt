@@ -68,7 +68,7 @@ envoy==0.0.3
 execnet==1.7.1
 executing==0.3.3
 facebook-wda==0.8.1
-fastapi==0.61.0
+fastapi==0.65.2
 filelock==3.0.12
 flake8==3.7.9
 flake8-polyfill==1.0.2
