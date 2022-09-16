@@ -128,7 +128,7 @@ locust==1.2.2
 locustio==0.14.5
 logzero==1.5.0
 lxml==4.5.0
-Mako==1.1.0
+Mako==1.2.2
 maproxy==0.0.12
 Markdown==3.1.1
 MarkupSafe==1.1.1
