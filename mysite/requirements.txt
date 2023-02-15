@@ -400,7 +400,7 @@ websocket-client==0.48.0
 websockets==8.1
 WebTest==2.0.34
 weditor==0.5.0
-Werkzeug==0.16.0
+Werkzeug==2.2.3
 whichcraft==0.6.1
 wrapt==1.11.2
 wxPython==4.0.7.post2
